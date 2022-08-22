@@ -1,0 +1,33 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main()
+{
+	float a,b,c,d,x1,x2;
+	cout<< "ingrese a :";
+	cin>>a;
+	cout<< "Ingresar b :";
+	cin>>b;
+	cout<< "Ingresar c :";
+	cin>>c;
+	x1=(-b+sqrt(b*b*-4*a*c)/2*a);
+	x2=(-b-sqrt(b*b*-4*a*c)/2*a);
+	d=(b*b-4*a*c);
+	if(d>0)
+		x1=(-b+sqrt(b*b*-4*a*c)/2a);
+		x2=(-b-sqrt(b*b*-4*a*c)/2a);
+		cout<< "El resultado de x1 es: "<<x1<<endl,
+		cout<< "El reultado de x2 es: "<<x2<<endl;
+
+	else 
+		if(d==0)
+		x1=(-b+sqrt(b*b*-4*a*c)/2a);
+		x2=(-b-sqrt(b*b*-4*a*c)/2a);
+		cout<< "El resultado de x1 es: "<<Error<<endl;
+		cout<<"El resultado de x2 es: "<<Error<<endl;
+		getch();
+}
