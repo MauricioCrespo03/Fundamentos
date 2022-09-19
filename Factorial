@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+
+void main ()
+{
+int a,b factorial;
+cout<<"Elegir un numero para calcular el factorial";
+cin>>n;
+factorial=1;
+
+for (b=1 ; b<=a ; b++)
+{
+	factorial=b ; b++;
+}
+
+cout<< "El factorial es: "<<factorial<<endl;
+system ("pause");
+ getch ();
+}
+
