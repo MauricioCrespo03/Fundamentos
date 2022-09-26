@@ -1,0 +1,17 @@
+//autor: Mauricio Crespo 26/09/2022
+
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+using namespace std;
+int main ()
+{
+    int numero, factorial = 1;
+	cout<<" Elija un numero; ";
+	cin>>numero;
+	for(int i=1;i<=numero;i++)
+		factorial = factorial * i;
+   
+    cout<<"El producto factorial del numero es: "<<factorial<<endl;
+    getch();
+}
